@@ -41,7 +41,7 @@ function App() {
         </div>
 <div className='Right'>
 
-        <button className='B2' onClick={()=>setSwitch4()}> 
+        <button className='B2' onClick={()=>("next")}> 
 <button className='buttone3' style = {{background:(switch1===false&&switch2===false&&switch3===false)?"#46AC4A":"#D34849",display:(switch1===false&&switch2===false&&switch3===false)?"none":""}} >No way !</button> 
 <button className='buttone3' style = {{background:(switch1===false&&switch2===false&&switch3===false)?"#46AC4A":"#D34849",display:!(switch1===false&&switch2===false&&switch3===false)?"none":""}} >Go !</button> 
 

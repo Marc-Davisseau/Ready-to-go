@@ -5,18 +5,11 @@ import { useState } from "react";
 
 
 function App() {
-  const handleClick = (name) => {
-switch1 = name
 
-// console.log(switch1)
-
-
-  };
 
   const [switch1, setSwitch1] = useState(true);
   const [switch2, setSwitch2] = useState(true);
   const [switch3, setSwitch3] = useState(true);
-  const [switch4, setSwitch4] = useState(true);
 
   
   return (

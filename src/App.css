@@ -1,38 +1,98 @@
-.App {
+.GlobalApp{
+
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+:root {
+  --blue: #5C48D3
   }
-  to {
-    transform: rotate(360deg);
+  /* p {
+    color: var(--text-color);
+    } */
+
+.B1{
+margin: 20px;  
+width: 150px;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.Left{
+/* border: solid rgb(245, 16, 16) 3px; */
+display: flex;
+flex-direction: column;
+width: 50%;
+align-items:center;
+justify-content: center;
+}
+
+.Right{
+  display: flex;
+width: 50%;
+align-items:center;
+justify-content: center;
+/* border: solid black 3px; */
   }
+
+  .buttone1{
+    width: 120px;
+    height: 80px;
+    border-radius: 8px;
+  }
+
+  .buttone2{
+    width: 120px;
+    height: 80px;
+    border-radius: 8px;
+
+  }
+
+  .buttone3{
+    width: 250px;
+    height: 150px;
+    border-radius: 8px;
+    color: aliceblue;
+  }
+
+  .B1{
+width: 300px;
+background: none;
+border: none;
+  }
+
+  .B2{
+    background: none;
+    border: none;
+  }
+
+  button {
+    font-family: 'Poppins', sans-serif;
+    font-size:xx-large;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+header{
+  text-align: left;
+  border-bottom: solid grey 1px;
+
+}
+footer{
+margin-top: 50%;
 }
